@@ -2,6 +2,7 @@
   "expo": {
     "name": "dfund-fundraiser",
     "slug": "dfund-fundraiser",
+    "owner": "devdx",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -19,7 +20,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.devdx.dfund"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +33,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "e6da1422-6863-4579-a6e9-a0cdbe29f2bf"
+      }
     }
   }
 }
